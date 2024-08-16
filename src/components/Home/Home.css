@@ -1,0 +1,123 @@
+.heart-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 1;
+    width: 80%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    pointer-events: none; /* Ensures the carousel is still clickable */
+    /* margin-top: 20px; Add space above the heart */
+  }
+  
+  .heart-img {
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    z-index: 1;
+  }
+  
+  .save-the-date {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff; /* Adjust as necessary */
+    z-index: 2;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5); /* Adjust as necessary */
+    pointer-events: none; /* Ensures the carousel is still clickable */
+  }
+  
+  .save-the-date h1, .save-the-date h3  {
+    font-size: 26px;
+  }
+
+  .save-the-date h2 {
+    font-size: 22px;
+  }
+  .save-the-date h1, .save-the-date h2, .save-the-date h3 {
+    margin: 0;
+  }
+  
+  .carousel-image {
+    height: 600px; /* Set a fixed height for all images */
+    object-fit: cover; /* Ensure the image covers the container */
+  }
+  
+  @media (max-width: 768px) {
+    .heart-overlay {
+        width: 335px;
+        top: 40%;
+    }
+  
+    .save-the-date h1 {
+      font-size: 1.5rem;
+    }
+  
+    .save-the-date h2 {
+      font-size: 1rem;
+    }
+  
+    .save-the-date h3 {
+      font-size: 0.8rem;
+    }
+  
+    .carousel-image {
+      height: 400px; /* Adjust height for smaller screens */
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .heart-overlay {
+      width: 250px;
+      top : 161px;
+    }
+  
+    .save-the-date h1 {
+      font-size: 1.2rem;
+    }
+  
+    .save-the-date h2 {
+      font-size: 0.8rem;
+    }
+  
+    .save-the-date h3 {
+      font-size: 0.6rem;
+    }
+  
+    .carousel-image {
+      height: 300px; /* Adjust height for even smaller screens */
+    }
+  }
+
+  @media (max-width: 768px) {
+    .heart-overlay {
+        width: 335px;
+        top: 161px;
+    } 
+  }
+
+  @media only screen and (min-width: 375px) and (max-width: 767px)  {
+    .heart-overlay {
+      width: 255px;
+        top: 20%;
+      } 
+  }
+
+  
+  @media only screen and (min-width: 768px) and (max-width: 997px)  {
+    .heart-overlay {
+      width: 360px;
+        top: 24%;
+      } 
+  }
+
+  @media (max-width: 1024px) {
+    .heart-overlay {
+        top: 24%;
+      } 
+  }

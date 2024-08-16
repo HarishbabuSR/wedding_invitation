@@ -1,0 +1,131 @@
+.pb-90 {
+    padding-bottom: 90px !important;
+}
+
+.section-padding {
+    padding: 120px 0;
+}
+
+.person-area {
+    background: #f9f9f9;
+    margin-top: 50px;
+}
+
+.main-container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.section-title1 {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.section-content {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.section-title1 h2 {
+    font-size: 40px;
+    font-family: Great Vibes, cursive;
+    margin-bottom: 10px;
+    color: #649e93;
+  };
+
+.section-title1 img {
+    position: relative;
+    bottom: 25px;
+}
+  
+@media (max-width: 767px) {
+    .section-title1 h2 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+}
+
+.person-btn {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px !important;
+    border-bottom: 1px solid rgba(142, 199, 188, .37);
+}
+
+
+.tab-button {
+    padding: 10px 30px;
+    background: #5e9a8e !important;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    font-size: 25px;
+    border: none;
+    border-right: 2px solid #fff !important;
+    color: #fff;
+    border-radius: 0;
+    cursor: pointer;
+    outline: none;
+  }
+
+  .tab-button:hover {
+    background: #5e9a8e !important;
+  }
+  
+  .tab-button.active {
+    background: #4e7b72 !important;
+    color: #fff;
+  }
+
+  @media (max-width: 490px) {
+    .tab-button  {
+        padding: 3px 5px;
+        font-size: 20px;
+    }
+}
+
+.person-card {
+    border: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: #f8f9fa;
+  }
+  
+  .person-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .image-container {
+    overflow: hidden;
+  }
+  
+  .image-container img {
+    transition: transform 0.3s ease;
+  }
+  
+  .person-card:hover img {
+    transform: scale(1.1);
+  }
+  
+  .card-title {
+    color: #618a89;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    font-size: 14px;
+  }
+
+  .person-container {
+    width: 100%;
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-right: auto;
+    margin-left: auto;
+}
+  

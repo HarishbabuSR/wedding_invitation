@@ -1,0 +1,51 @@
+.custom-navbar {
+    z-index: 99;
+    background-color: #767676;
+    /* opacity : 0.8; */
+    transition: background-color 0.3s ease;
+  }
+
+.custom-navbar.scrolled {
+    background-color: #1e7b68;
+  }
+  
+  .custom-navbar .navbar-brand span {
+    font-size: 36px;
+    font-family: Great Vibes, cursive;
+    color: #fff;
+    font-style: italic;
+  }
+  
+  .custom-navbar .navbar-brand .heart {
+    color: #fff;
+  }
+  
+  .custom-navbar .nav-link {
+    font-size: 20px;
+    margin-right: 10px;
+    margin-top: 15px;
+    color:#FFFFFF;
+  }
+
+  .custom-navbar .nav-link.active {
+    color: #FFFFFF;
+    /* border-bottom: 4px solid #000; */
+  }
+
+  @media (min-width: 992px) {
+  .navbar-expand-lg .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+    justify-content: flex-end;
+  }
+}
+  
+  @media (max-width: 991px) {
+    .custom-navbar .nav-link {
+      font-size: 16px;
+      margin: 0;
+      padding: 10px 0;
+      text-align: center;
+    }
+  }
+  

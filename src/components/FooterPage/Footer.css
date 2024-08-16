@@ -1,0 +1,117 @@
+.footer-area {
+    background: url("../../assets/Footer/FooterBg.jpg") no-repeat 50% / cover;
+    padding: 100px 0;
+    position: relative;
+    z-index: 1;
+}
+
+.footer-area:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: .5;
+    z-index: -1;
+}
+
+.footer-container {
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+}
+
+.footer-content {
+    margin: auto;
+    text-align: center;
+}
+
+.content-sub {
+    padding: 50px 60px;
+    background: rgba(94, 154, 142, .5);
+    display: inline-block;
+    z-index: 99;
+    position: relative;
+}
+
+.content-sub:before {
+    position: absolute;
+    content: "";
+    left: -8px;
+    top: -6px;
+    width: 103%;
+    height: 105%;
+    border: 1px solid hsla(0, 0%, 100%, .4);
+}
+
+.content-sub h2 {
+    font-size: 80px;
+    font-family: Great Vibes, cursive;
+    color: #fff;
+}
+
+.content-sub span {
+    font-size: 30px;
+    color: #dffff9;
+}
+
+@media (min-width: 1200px) {
+    .footer-container {
+        max-width: 1140px;
+    }
+}
+
+@media (min-width: 992px) {
+    .footer-container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 768px) {
+    .footer-container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 576px) {
+    .footer-container {
+        max-width: 540px;
+    }
+}
+
+.footer-top-icon{
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+ul.smoothscroll {
+    position: fixed;
+    bottom: 15px;
+    right: 30px;
+    list-style: none;
+    z-index: 999;
+}
+
+.header-menu ul li {
+    position: relative;
+}
+
+ul.smoothscroll a {
+    width: 50px;
+    height: 50px;
+    background: rgba(30, 130, 103, .6);
+    color: #fff;
+    display: block;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 47px;
+    border: 1px solid #1e8267;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
